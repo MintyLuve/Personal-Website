@@ -1,0 +1,155 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+
+body {
+ background-color: #d1ffea; 
+  margin-bottom: 40px;
+}
+
+header{
+  height: 5%;
+}
+
+
+/* STYLE TEXT */
+
+h1 {
+  color: #02221b;
+  font-family: 'Brush Script MT', cursive;
+  height: 5%;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+h2 {
+  color: #015b49;
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+p {
+  color: #0d9177;
+  font-family: Georgia, serif;
+  text-align: center;
+  marin-bottom: 100px;
+  font-size: 150%;
+  overflow-wrap: break-word;
+}
+
+a {
+  font-family: Georgia, serif;
+  text-align: center;
+  overflow-wrap: break-word;
+  color: #2dadd7;
+}
+
+.line {
+  font-family: Arial, serif, bold;
+  display: block;
+  }
+
+#blurb {
+  padding: 10%;
+}
+
+/* STYLE IMAGES */
+
+div.portfolio {
+  display: inline;
+  width: 40%;
+  float: left;
+  border-radius: 20px;
+  margin: 5%;
+  background-color: white;
+  outline: 5px solid;
+  outline-color: #013223;
+  margin-bottom: 20px;
+}
+
+div.text {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+div.main {
+  width: 33.3333%;
+  border-radius: 20px;
+  text-align: center;
+  float: left;
+  margin-bottom: 20px;
+
+}
+
+div.row {
+  width: 100%;
+  height: auto;
+  padding:10px;
+}
+
+#headshot {
+  border-radius: 50%;
+  outline: 5px solid;
+  border-color: #013223;
+}
+
+.image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  outline: 5px solid;
+  outline-color: #013223;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* STYLE NAV BAR */
+.clear{
+  list-style-type: none;
+  background-color: #d1ffea;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #005735;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: #d1ffea; 
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #36a169;
+}
+
+li a:hover{
+  background-color: #00f074;
+}
